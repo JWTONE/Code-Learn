@@ -1,9 +1,17 @@
 '''
-Sprout
-3
+Hello
+Baekjoon
+Online Judge
 '''
 
-s = str(input())
-i = int(input())
+# s = 'Hello\n'
+# s1 = 'Beakjoon\n'
+# s2 = 'Online Judge\n'
 
-print(s[i-1])
+s = input("\n")
+s1 = input("\n")
+s2 = input("\n")
+
+print(s, end='')
+print(s1, end='')
+print(s2, end='')
