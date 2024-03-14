@@ -1,11 +1,10 @@
 '''
 baejoon
 '''
-S = input()
-C = list(S)
-alphabets = range(1, 26)
+word = input()
 
-for index, alphabet in enumerate(C):
-    print(f'{index}{alphabet}')
-
-print(alphabets)
+for letter in range(ord('a'), ord('z') + 1):
+    if chr(letter) in word:
+        print(word.index(chr(letter)), end=" ")
+    else:
+        print("-1", end=" ")
