@@ -15,6 +15,4 @@ for _ in range(T):
     C %= 5
 
     P = C
-    
-    # 결과 출력
     print(Q, D, N, P)
