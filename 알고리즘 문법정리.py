@@ -60,8 +60,9 @@ item = heappop(heap) # pops the smallest item from the heap
 item = heap[0]       # smallest item on the heap without popping it
 heapify(x)           # transforms list into a heap, in-place, in linear time
 item = heapreplace(heap, item) # pops and returns smallest item, and adds
-                               # new item; the heap size is unchanged """
-                               
+# new item; the heap size is unchanged """
+
+
 def heappush(heap, item):
     """Push item onto heap, maintaining the heap invariant."""
     heap.append(item)
